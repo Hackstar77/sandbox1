@@ -1143,6 +1143,30 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = GER_volkssturm
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = GER_west_wall }
+		available = {
+			is_subject = no
+			GER = {
+				has_war_with = SOV
+			}
+			NOT = { has_idea = GER_barbarossa }
+		}
+		x = -5
+		y = 3
+		relative_position_id = GER_four_year_plan
+		cost = 1
+		ai_will_do = {
+			factor = 4
+		}
+			
+		completion_reward = {
+			add_ideas = ger_volk
+		}
+	}
 
 	focus = {
 		id = GER_autarky
@@ -1358,7 +1382,12 @@ focus_tree = {
 					has_full_control_of_state = 65
 				}
 				65 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 1
+						instant_build = yes
+					}
 					add_building_construction = {
 						type = synthetic_refinery
 						level = 1
@@ -2566,6 +2595,40 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = GER_army_innovation_3
+		icon = GFX_army_innovations_3
+		prerequisite = { focus = GER_army_innovation_2 }
+		x = 0
+		y = 2
+		relative_position_id = GER_army_innovation_2
+		cost = 10
+		search_filters = { FOCUS_FILTER_RESEARCH  }
+		completion_reward = {
+			army_experience = 30
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				name = GER_anti_air_research
+				bonus = 1.0
+				uses = 1
+				category = cat_anti_air
+			}
+			add_tech_bonus = {
+				name = GER_anti_tank_research
+				bonus = 1
+				uses = 2
+				category = cat_anti_tank
+			}
+			
+		}
+		
+	}
 
 	focus = {
 		id = GER_rocketry_focus
@@ -2587,11 +2650,13 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GER_rocketry_focus
 				bonus = 1.0
+				ahead_reduction = 0.5
 				uses = 2
 				category = rocketry
 			}
 			add_tech_bonus = {
 				name = GER_rocketry_focus
+				ahead_reduction = 1.0
 				bonus = 1.0
 				uses = 2
 				category = jet_technology
@@ -2776,7 +2841,7 @@ focus_tree = {
 			date > 1941.6.21
 			is_subject = no
 		}
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = GER_rhineland
 		cost = 0
@@ -2812,6 +2877,48 @@ focus_tree = {
 					}
 				}
 			}
+		}
+	}
+	
+	focus = {
+		id = GER_panzer_factories
+		icon = GFX_panzer_factories
+		prerequisite = { focus = GER_ussr_war_goal }
+		mutually_exclusive = { focus = GER_revived_air_effort }
+		available = {
+			is_subject = no
+			GER = {
+				has_war_with = SOV
+			}
+		}
+		x = -2
+		y = 2
+		relative_position_id = GER_rhineland
+		cost = 10
+		
+		completion_reward = {
+			add_ideas = panzer_factories
+		}
+	}
+	
+	focus = {
+		id = GER_revived_air_effort
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = GER_ussr_war_goal }
+		mutually_exclusive = { focus = GER_panzer_factories }
+		available = {
+			is_subject = no
+			GER = {
+				has_war_with = SOV
+			}
+		}
+		x = -4
+		y = 2
+		relative_position_id = GER_rhineland
+		cost = 10
+		
+		completion_reward = {
+			add_ideas = fighter_factories
 		}
 	}
 
@@ -3600,7 +3707,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = GER_naval_rearmament }
 		x = 0
-		y = 3
+		y = 2
 		relative_position_id = GER_naval_rearmament
 		cost = 5
 		ai_will_do = {

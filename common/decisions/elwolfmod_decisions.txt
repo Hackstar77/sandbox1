@@ -38,28 +38,6 @@ political_actions = {
 }
 
 operations = {
-	steal_soviet_anti_tank_research = {
-		icon = GFX_decision_generic_tank
-		allowed = {
-			tag = GER
-		}
-		visible = {
-			tag = GER
-			has_game_rule = {
-				rule = german_anti_tank_bonus
-				option = on
-			}
-		}
-		fire_only_once = yes
-		complete_effect = {
-			add_tech_bonus = {
-				name = SOV_soviet_artillery_tech_bonus_name_default
-				bonus = 1
-				uses = 2
-				category = artillery
-			}
-		}
-	}
 	annex_ethiopia = {
 		# icon = generic_operation
 		allowed = {

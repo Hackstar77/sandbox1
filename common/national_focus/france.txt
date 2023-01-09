@@ -2452,7 +2452,7 @@
 		x = -1
 		y = 1
 		relative_position_id = FRA_buy_time
-		cost = 10
+		cost = 0
 
 		available_if_capitulated = yes
 
@@ -2740,7 +2740,7 @@
 			focus = FRA_agricultural_protectionism
 		}
 		relative_position_id = FRA_laissez_faire
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
