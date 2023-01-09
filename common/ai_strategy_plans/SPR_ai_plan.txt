@@ -1,0 +1,31 @@
+SPR_historical = {
+	name = "SPR AI Plan"
+	desc = "SPR does industry"
+
+	enable = {
+		date > 1935.1.1
+		original_tag = SPR
+	}
+	abort = {
+
+	}
+
+	ai_national_focuses = {
+	   SPA_a_great_spain
+       SPA_fuse_the_parties
+       SPA_stamp_out_the_maquis
+	}
+
+	
+	research = {
+		industry = 9999999999999999999999999
+	}
+	
+    traits = {
+        
+    }	
+
+	focus_factors = {
+		
+	}
+}
