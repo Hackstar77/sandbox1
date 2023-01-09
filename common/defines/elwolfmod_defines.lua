@@ -27,6 +27,7 @@ NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12 							    -- WAS 48 | drastically cut
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	    -- WAS 60 | less messages lying around at the top of your screen
 STATIC_INTEL_SOURCE_OPERATION_TOKENS_MAXIMUMS = {0}
 EVENT_PROCESS_OFFSET = 31
+NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10
 
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "elwolfmod"
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "elwolfmod"
