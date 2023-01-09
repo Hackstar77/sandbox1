@@ -141,6 +141,7 @@ if = {
 		SPR_political_violence
 		SPR_national_strikes_3
 		ai_exporter
+		tungsten_trade_contracts
 	}
 	recruit_character = SPR_niceto_alcala_zamora
 	recruit_character = SPR_jose_diaz

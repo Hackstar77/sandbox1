@@ -176,7 +176,6 @@ set_war_support = 0.3
 		ludwig_beck
 		gerd_von_rundstedt
 		GER_autarky_idea
-
 		#laws
 		war_economy
 		extensive_conscription

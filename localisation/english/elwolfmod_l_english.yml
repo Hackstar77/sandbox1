@@ -110,8 +110,8 @@
  advanced_maintenance:0 "Advanced Maintenance"
  advanced_maintenance_desc:0 "Spare tank parts such as sprockets and tracks are attached to the tank allowing for better maintainance"
  
- GER_panzer_factories_desc:0 "With advanced designs such as the Panther and Tiger, we can finally optimize and streamline production of our Panzer factories."
- GER_army_innovation_3_desc:0 "The situation in the skies has taken a turn for the worse. It's time to update our anti-air battery designs to stand a chance against allied air supremacy."
+ #GER_panzer_factories_desc:0 "With advanced designs such as the Panther and Tiger, we can finally optimize and streamline production of our Panzer factories."
+ #GER_army_innovation_3_desc:0 "The situation in the skies has taken a turn for the worse. It's time to update our anti-air battery designs to stand a chance against allied air supremacy."
  
  GER_volkssturm:0 "Deutsche Volkssturm"
  GER_volkssturm_desc:0 "Our manpower is running low, the allies have advanced to our borders and the war situation is not in our favour. By loosening conscription limits, we'll be able to take advantage of fighting on our own territory, on our own terms!"
@@ -123,7 +123,9 @@
  
  #Dorito Shit
  GER_panzer_factories:0 "Increase Panzer Production"
- #GER_panzer_factories_desc:0 "Currently, the Soviets have +25% factory output from concentrated, 140% Efficiency Cap, and 5% cheaper tanks. It is only fair that we try to even the playing field."
+ GER_panzer_factories_desc:0 "Currently, the Soviets have +25% factory output from concentrated, 140% Efficiency Cap, and 5% cheaper tanks. It is only fair that we try to even the playing field."
  panzer_factories:0 "Increased Panzer Production"
  GER_army_innovation_3:0 "Army Innovations III"
- #GER_army_innovation_3_desc:0 "We must have the latest anti-air to be able to compete against the Allies' air superiority"
+ GER_army_innovation_3_desc:0 "We must have the latest anti-air to be able to compete against the Allies' air superiority"
+ tungsten_trade_contracts:0 "Tungsten Trade Contracts"
+ 

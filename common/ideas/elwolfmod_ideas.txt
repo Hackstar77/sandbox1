@@ -24,6 +24,26 @@ ideas = {
 		}
 	}
 	country = {
+		tungsten_trade_contracts = {
+			picture = idea_generic_flexible_foreign_policy
+			allowed ={
+				original_tag = SPR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			cancel = {
+				is_ai = no
+			}
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.8
+			}
+		}
+
+
 		panzer_factories = {
 			picture = Generic_license_production
 			allowed = {
