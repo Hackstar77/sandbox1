@@ -246,7 +246,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = limited_rearmament_focus
-		cost = 6
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -272,7 +272,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ENG_motorized_focus
-		cost = 6
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -613,9 +613,7 @@ focus_tree = {
 					has_dlc = "Man the Guns"
 				}
 				OR = {
-					GER = {
-						has_completed_focus = GER_rhineland
-					}
+					threat > 0.05
 					has_war = yes
 					has_idea = ENG_no_further_appeasement_idea
 					NOT = {
@@ -630,9 +628,7 @@ focus_tree = {
 					}
 				}
 				OR = {
-					AUS = {
-						exists = no
-					}
+					threat > 0.05
 					has_war = yes
 					NOT = {
 						has_government = democratic
@@ -788,8 +784,8 @@ focus_tree = {
 						has_war_with = ROOT
 						num_of_factories > 30
 					}
-					AUS = {
-						exists = no
+					GER = {
+						has_completed_focus = GER_rhineland
 					}
 					threat > 0.2
 					has_idea = ENG_no_further_appeasement_idea
@@ -809,8 +805,8 @@ focus_tree = {
 						has_war_with = ROOT
 						num_of_factories > 30
 					}
-					AUS = {
-						exists = no
+					GER = {
+						has_completed_focus = GER_rhineland
 					}
 					threat > 0.2
 					NOT = {
@@ -968,7 +964,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = UK_secret_focus
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = rocketry
 			}
 			add_tech_bonus = {
@@ -1421,13 +1417,6 @@ focus_tree = {
 				bonus = 1
 				uses = 4
 				category = jet_technology
-			}
-			add_tech_bonus = {
-				name = UK_jet_focus
-				ahead_reduction = 1.25
-				bonus = 1
-				uses = 3
-				category = rocketry
 			}
 		}
 	}
@@ -4261,115 +4250,6 @@ focus_tree = {
 			custom_effect_tooltip = ENG_indian_autonomy_tt
 		}
 	}
-	###FED START
-	focus = {
-		id = ENG_imperial_federation
-		prerequisite = { focus = ENG_imperial_conference }
-		available = {
-		}
-
-		icon = GFX_focus_eng_imperial_federation
-
-		x = 0
-		y = 1
-		relative_position_id = ENG_imperial_conference
-		cost = 10
-		ai_will_do = {
-			factor = 1
-			#modifier = {
-			#	factor = 0
-			#}
-		}
-		search_filters = {FOCUS_FILTER_ANNEXATION}	
-		completion_reward = {
-			if = {
-				limit = {
-					RAJ = {
-						NOT = { is_subject_of = ENG }
-					}
-				}
-				set_cosmetic_tag = ENG_imperial_federation_unified
-				news_event = { id = mtg_news.8 days = 1 }
-			}
-			if = {
-				limit = {
-					RAJ = {
-						is_subject_of = ENG
-					}
-				}
-				set_cosmetic_tag = ENG_imperial_federation_india_unified
-				news_event = { id = mtg_news.9 days = 1 }
-			}
-			CAN = {
-				every_unit_leader = {
-					set_nationality = ENG
-				}
-			}
-			annex_country = {
-			    target = CAN
-			    transfer_troops = yes
-			}
-			every_state = {
-				limit = {
-					is_core_of = CAN
-				}
-				add_core_of = ENG
-			}
-			SAF = {
-				every_unit_leader = {
-					set_nationality = ENG
-				}
-			}
-			annex_country = {
-			    target = SAF
-			    transfer_troops = yes
-			}
-			every_state = {
-				add_core_of = ENG
-			}
-				RAJ = {
-					every_unit_leader = {
-						set_nationality = ENG
-					}
-				}
-				annex_country = {
-				    target = RAJ
-				    transfer_troops = yes
-				}
-			AST = {
-				every_unit_leader = {
-					set_nationality = ENG
-				}
-			}
-			annex_country = {
-			    target = AST
-			    transfer_troops = yes
-			}
-			every_state = {
-				limit = {
-					is_core_of = AST
-				}
-				add_core_of = ENG
-			}
-			NZL = {
-				every_unit_leader = {
-					set_nationality = ENG
-				}
-			}
-			annex_country = {
-			    target = NZL
-			    transfer_troops = yes
-			}
-			every_state = {
-				limit = {
-					is_core_of = NZL
-				}
-				add_core_of = ENG
-			}
-		}
-	}
-	###FED END
-	
 	### DEMOCRATIC BRANCH - STEADY AS SHE GOES ###
 	focus = {
 		id = ENG_steady_as_she_goes

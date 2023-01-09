@@ -1,5 +1,4 @@
 ideas = {
-
 	trade_laws = {
 		law = yes
 		SOV_collectivized_society = {
@@ -24,61 +23,6 @@ ideas = {
 		}
 	}
 	country = {
-		panzer_factories = {
-			picture = Generic_license_production
-			allowed = {
-				original_tag = GER
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			equipment_bonus = {
-				armor = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-			}
-		}
-		
-		fighter_factories = {
-			picture = idea_man_five_year_plan_air
-			allowed = {
-				original_tag = GER
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			equipment_bonus = {
-				fighter = {
-					build_cost_ic = -0.15
-					instant = yes
-				}
-			}
-		}
-		
-		ger_volk = {
-			picture = idea_generic_army_war_college
-			allowed = {
-				original_tag = GER
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			modifier = {
-				removal_cost = -1
-				army_attack_factor = -0.1
-				army_core_attack_factor = 0.15
-				army_defence_factor = -0.1
-				army_core_defence_factor = 0.15
-				conscription = 0.025
-				training_time_army_factor = -0.15
-			}
-		}
-
-
 		elwolfmod_novols = {
 			picture = air_support_focus
 			allowed_civil_war = {
@@ -189,17 +133,6 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = 100
 			}
 		}
-		ai_exporter = {
-			cancel = {
-				is_ai = no
-			}
-			removal_cost = -1
-			picture = generic_goods_red_bonus
-			modifier = {
-				min_export = 1.0
-			}
-		}
-		
 		artificial_intelligence = {
 			cancel = {
 				is_ai = no

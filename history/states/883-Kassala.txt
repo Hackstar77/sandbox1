@@ -4,10 +4,6 @@ state = {
 	manpower = 511402
 	state_category = rural
 
-	resources ={
-		chromium = 23
-	}
-
 	history = {
 		owner = ENG
 		add_core_of = SWE

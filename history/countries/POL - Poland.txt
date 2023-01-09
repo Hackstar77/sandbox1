@@ -29,19 +29,12 @@ if = {
 	}
 }
 
-set_research_slots = 5
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	infantry_weapons2 = 1
-	support_weapons = 1
-	support_weapons2 = 1
-	support_weapons3 = 1
-	support_weapons4 = 1
-	night_vision = 1
-	
 	tech_mountaineers = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -49,17 +42,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	trench_warfare = 1
-	grand_battle_plan = 1
-	prepared_defense = 1
-	grand_assault = 1
-	infantry_offensive = 1
-	armored_operations = 1
-	infiltration_assault = 1
-	night_assault_tactics = 1
-	attritional_containment = 1
-	infiltration_in_depth = 1
-	
-	
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	basic_train = 1
@@ -120,7 +102,7 @@ if = {
 	add_ideas = {
 		uncontrolled_exports
 		POL_april_constitution_1
-		#POL_looming_peasants_strike
+		POL_looming_peasants_strike
 		POL_sanation_left_opposition_1
 		POL_sanation_right_opposition_1
 	}
@@ -165,7 +147,7 @@ if = {
 		complete_national_focus = POL_polish_militarism
 		complete_national_focus = POL_consolidate_sanation_government
 
-		#remove_ideas = POL_looming_peasants_strike
+		remove_ideas = POL_looming_peasants_strike
 	}
 
 	add_political_power = 1198

@@ -103,6 +103,22 @@ ger_boost = {
 	}
 }
 
+german_anti_tank_bonus = {
+	name = "German Anti-Tank Research Bonuses"
+	group = "elwolfmod Rules"
+	icon = "GFX_decision_generic_army_support"
+	option = {
+		name = off
+		text = "ROff"
+		desc = "No German Anti-Tank bonuses (Not Reccomended)"
+	}
+	default = {
+		name = on
+		text = "GOn"
+		desc = "Germany has a decision to give them 2 Anti-Tank 100% research bonuses (Reccomended)"
+	}
+}
+
 japan_closed_eco = {
 	name = "Japan Closed Eco"
 	group = "elwolfmod Rules"

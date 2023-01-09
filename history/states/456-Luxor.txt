@@ -6,10 +6,6 @@ state=
 	
 	state_category = rural
 	
-	resources={
-		chromium = 18
-	}
-	
 	history = {
 		victory_points = {
 			11999 1

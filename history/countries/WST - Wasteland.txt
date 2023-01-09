@@ -1,4 +1,4 @@
-capital = 318
+capital = 649
 
 set_politics = {
 	ruling_party = neutrality
@@ -8,8 +8,4 @@ set_politics = {
 }
 set_popularities = {
 	neutrality = 100
-}
-
-add_ideas = {
-	ai_exporter
 }

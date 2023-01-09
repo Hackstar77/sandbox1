@@ -4,10 +4,6 @@ state={
 	name = "STATE_551"
 	manpower = 821003
 
-	resources ={
-		chromium = 18
-	}
-
 	history={
 		owner = ENG
 		add_core_of = SWE
