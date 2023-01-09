@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1JZT8wk2BnnwuF9IHdskXekyz3Q6u3AtapgMa3rUi2vWcfEeh2LvMpkHdV8UKsv2SKVwllnTztAt7pXtxpM8Ug==",
+  "success": true,
+  "projectFilePath": "/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/historystates.csproj",
+  "expectedPackageFiles": [
+    "/home/marroq/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.10/microsoft.aspnetcore.app.ref.6.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

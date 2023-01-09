@@ -1,0 +1,15 @@
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/bin/Debug/net6.0/historystates
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/bin/Debug/net6.0/historystates.deps.json
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/bin/Debug/net6.0/historystates.runtimeconfig.json
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/bin/Debug/net6.0/historystates.dll
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/bin/Debug/net6.0/ref/historystates.dll
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/bin/Debug/net6.0/historystates.pdb
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.csproj.AssemblyReference.cache
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.GeneratedMSBuildEditorConfig.editorconfig
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.AssemblyInfoInputs.cache
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.AssemblyInfo.cs
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.csproj.CoreCompileInputs.cache
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.dll
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/ref/historystates.dll
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.pdb
+/home/marroq/.local/share/Paradox Interactive/Hearts of Iron IV/mod/elwolfmod/resources/obj/Debug/net6.0/historystates.genruntimeconfig.cache
