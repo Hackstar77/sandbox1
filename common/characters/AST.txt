@@ -96,10 +96,11 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
+			traits = {infantry_leader commando invader panzer_leader}
+			skill=5
 			attack_skill=4
 			defense_skill=3
-			planning_skill=3
+			planning_skill=6
 			logistics_skill=3
 			legacy_id=-1
 		}

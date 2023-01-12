@@ -100,11 +100,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ jungle_rat }
+			traits={ jungle_rat infantry_leader ranger}
 			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=3
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
 			logistics_skill=4
 			legacy_id=-1
 		}

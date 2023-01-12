@@ -414,13 +414,31 @@ characters={
 				small=GFX_portrait_USA_leslie_mcnair_small
 			}
 		}
+		
+		advisor = {
+			slot = high_command
+			idea_token = mcnair
+			ledger = army
+			allowed = {
+				original_tag = USA
+			}
+			available = {
+			}
+			traits = {
+				army_armored_1
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		corps_commander={
-			traits={ old_guard career_officer armor_officer }
-			skill=3
+			traits={ old_guard career_officer armor_officer panzer_leader}
+			skill=4
 			attack_skill=1
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=2
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=3
 			legacy_id=0
 		}
 	}

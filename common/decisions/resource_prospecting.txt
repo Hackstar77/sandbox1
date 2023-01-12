@@ -7947,4 +7947,81 @@ prospect_for_resources = {
 		}
 	}
 	
+	develop_macedonian_chromium_mines = { #56 GER
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 106
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 106
+			controls_state = 106
+		}
+
+		visible = {
+			owns_state = 106
+			controls_state = 106
+			has_tech = excavation3
+			
+			106 = {
+				NOT = {
+					has_state_flag = {
+						flag = macedonian_mines_developed
+						value = 7
+					}
+				}
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 50
+		days_remove = 120
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+
+		remove_effect = {
+			106 = {
+				add_resource = {
+					type = chromium
+					amount = 5
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = macedonian_mines_developed
+						}
+					}
+					set_state_flag = {
+						flag = macedonian_mines_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = macedonian_mines_developed
+						value = 1
+					}
+				}
+				
+			}
+		}
+	}
+	
 }

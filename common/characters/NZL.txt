@@ -78,6 +78,7 @@ characters={
 			}
 		}
 		corps_commander={
+			traits = {invader trickster engineer panzer_leader}
 			skill=4
 			attack_skill=2
 			defense_skill=4

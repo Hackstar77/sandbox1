@@ -251,7 +251,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ offensive_doctrine }
+			traits={ offensive_doctrine infantry_leader}
 			skill=4
 			attack_skill=4
 			defense_skill=4

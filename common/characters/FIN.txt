@@ -78,9 +78,9 @@ characters={
 			}
 		}	
 		field_marshal={
-			traits={ inflexible_strategist trait_cautious war_hero trickster winter_specialist defensive_doctrine }
-			skill=5
-			attack_skill=3
+			traits={ inflexible_strategist trait_cautious war_hero trickster winter_specialist defensive_doctrine brilliant_strategist ranger infantry_leader organizer}
+			skill=6
+			attack_skill=6
 			defense_skill=5
 			planning_skill=5
 			logistics_skill=3

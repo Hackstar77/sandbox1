@@ -67,9 +67,9 @@ characters={
 			traits={ brilliant_strategist politically_connected trickster trait_engineer organizer infantry_leader panzer_leader trickster }
 			skill=6
 			attack_skill=5
-			defense_skill=6
-			planning_skill=4
-			logistics_skill=4
+			defense_skill=7
+			planning_skill=5
+			logistics_skill=5
 			legacy_id=0
 		}
 	}
@@ -252,10 +252,10 @@ characters={
 		corps_commander={
 			traits = { organizer infantry_leader trait_engineer infantry_expert naval_invader commando trickster trait_mountaineer jungle_rat }
 			skill=8
-			attack_skill=5
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
+			attack_skill=10
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
 			legacy_id=0
 		}
 	}
@@ -627,9 +627,9 @@ characters={
 		corps_commander={
 			traits = {  commando naval_invader infantry_leader infantry_expert trait_engineer hill_fighter ranger trait_mountaineer }
 			skill=7
-			attack_skill=5
+			attack_skill=8
 			defense_skill=1
-			planning_skill=3
+			planning_skill=6
 			logistics_skill=3
 			legacy_id=0
 		}

@@ -127,9 +127,9 @@ characters = {
 		}
 
 		field_marshal = {
-			traits = { POL_sanation_left_leader defensive_doctrine }
-			skill=3
-			attack_skill=2
+			traits = { POL_sanation_left_leader defensive_doctrine infantry_leader}
+			skill=4
+			attack_skill=5
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=3

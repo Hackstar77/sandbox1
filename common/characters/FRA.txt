@@ -342,10 +342,10 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ media_personality harsh_leader armor_officer }
-			skill=4
-			attack_skill=4
-			defense_skill=4
+			traits={ media_personality harsh_leader armor_officer panzer_leader }
+			skill=5
+			attack_skill=6
+			defense_skill=5
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=101

@@ -375,8 +375,9 @@ characters = {
 				small = GFX_portrait_BUL_damian_velchev_small
 			}
 		}
+		#trait_BUL_zveno_member
 		corps_commander = {
-			traits = { trait_reckless harsh_leader trait_BUL_zveno_member organizer cavalry_leader panzer_leader infantry_leader trickster }
+			traits = { trait_reckless harsh_leader organizer cavalry_leader panzer_leader infantry_leader trickster }
 			skill = 5
 			attack_skill = 6
 			defense_skill = 3
