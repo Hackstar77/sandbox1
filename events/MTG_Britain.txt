@@ -5855,7 +5855,6 @@ country_event = {
 				FROM = { has_country_flag = ENG_extensive_diplomatic_pressure_flag }
 			}
 		}
-		add_political_power = -25
 		add_timed_idea = { idea = ENG_imperial_conference_defense_dominion days = 365 }
 		add_opinion_modifier = {
 			target = FROM
@@ -5884,31 +5883,6 @@ country_event = {
 			}
 		}
 	}
-
-	# Reject
-	option = {
-		name = mtg_britain.84.b
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 0 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 25 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 50 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 75 }
-			}
-		}
-		FROM = { country_event = { id = mtg_britain.86 } }
-	}
 }
 
 # Event for ENG telling FROM voted yes on Imperial Defense
@@ -5925,7 +5899,6 @@ country_event = {
 		name = mtg_britain.85.a
 		effect_tooltip = {
 			FROM = {
-				add_political_power = -25
 				add_timed_idea = { idea = ENG_imperial_conference_defense_dominion days = 365 }
 				add_opinion_modifier = {
 					target = ROOT
@@ -6071,31 +6044,6 @@ country_event = {
 		}
 		reverse_add_opinion_modifier = { target = FROM modifier = ENG_imperial_trade }
 		FROM = { country_event = { id = mtg_britain.89 } }
-	}
-
-	# Reject
-	option = {
-		name = mtg_britain.88.b
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 0 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 25 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 50 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 75 }
-			}
-		}
-		FROM = { country_event = { id = mtg_britain.90 } }
 	}
 }
 
@@ -6251,7 +6199,6 @@ country_event = {
 				FROM = { has_country_flag = ENG_extensive_diplomatic_pressure_flag }
 			}
 		}
-		add_political_power = -25
 		add_timed_idea = { idea = ENG_imperial_conference_economy_dominion days = 365 }
 		add_opinion_modifier = {
 			target = FROM
@@ -6280,31 +6227,6 @@ country_event = {
 			}
 		}
 	}
-
-	# Reject
-	option = {
-		name = mtg_britain.92.b
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 0 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 25 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 50 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 75 }
-			}
-		}
-		FROM = { country_event = { id = mtg_britain.94 } }
-	}
 }
 
 # Event for ENG telling FROM voted yes on Imperial Economy
@@ -6321,7 +6243,6 @@ country_event = {
 		name = mtg_britain.93.a
 		effect_tooltip = {
 			FROM = {
-				add_political_power = -25
 				add_timed_idea = { idea = ENG_imperial_conference_economy_dominion days = 365 }
 				add_opinion_modifier = {
 					target = ROOT
@@ -6460,7 +6381,6 @@ country_event = {
 				FROM = { has_country_flag = ENG_extensive_diplomatic_pressure_flag }
 			}
 		}
-		add_political_power = -25
 		add_war_support = 0.1
 		add_opinion_modifier = {
 			target = FROM
@@ -6468,31 +6388,6 @@ country_event = {
 		}
 		effect_tooltip = { FROM = { add_war_support = 0.03 } }
 		FROM = { country_event = { id = mtg_britain.97 } }
-	}
-
-	# Reject
-	option = {
-		name = mtg_britain.96.b
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 0 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 25 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 50 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 75 }
-			}
-		}
-		FROM = { country_event = { id = mtg_britain.98 } }
 	}
 }
 
@@ -6510,7 +6405,6 @@ country_event = {
 		name = mtg_britain.97.a
 		effect_tooltip = {
 			FROM = {
-				add_political_power = -25
 				add_war_support = 0.1
 				add_opinion_modifier = {
 					target = ROOT
@@ -6658,69 +6552,6 @@ country_event = {
 		effect_tooltip = { add_ideas = ENG_federal_integration }
 		set_country_flag = ENG_accepted_federation
 		FROM = { country_event = { id = mtg_britain.101 } }
-	}
-
-	# Reject
-	option = {
-		name = mtg_britain.100.b
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 0 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 25 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 50 }
-			}
-			modifier = {
-				factor = 0.8
-				has_opinion = { target = ENG value > 75 }
-			}
-			modifier = {
-				factor = 0
-				tag = RAJ
-				ENG = { has_completed_focus = ENG_indian_autonomy }
-				has_opinion = { target = ENG value > 99 }
-			}
-			modifier = {
-				factor = 0
-				tag = RAJ
-				ENG = { has_completed_focus = ENG_indian_autonomy }
-				has_opinion = { target = ENG value > 89 }
-				FROM = { has_country_flag = ENG_diplomatic_pressure_flag }
-			}
-			modifier = {
-				factor = 0
-				tag = RAJ
-				ENG = { has_completed_focus = ENG_indian_autonomy }
-				has_opinion = { target = ENG value > 79 }
-				FROM = { has_country_flag = ENG_extensive_diplomatic_pressure_flag }
-			}
-			modifier = {
-				factor = 0
-				NOT = { tag = RAJ }
-				has_opinion = { target = ENG value > 99 }
-			}
-			modifier = {
-				factor = 0
-				NOT = { tag = RAJ }
-				has_opinion = { target = ENG value > 89 }
-				FROM = { has_country_flag = ENG_diplomatic_pressure_flag }
-			}
-			modifier = {
-				factor = 0
-				NOT = { tag = RAJ }
-				has_opinion = { target = ENG value > 79 }
-				FROM = { has_country_flag = ENG_extensive_diplomatic_pressure_flag }
-			}
-		}
-		set_country_flag = ENG_rejected_federation
-		FROM = { country_event = { id = mtg_britain.102 } }
 	}
 }
 

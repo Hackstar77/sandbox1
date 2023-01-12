@@ -4325,13 +4325,22 @@ focus_tree = {
 			    transfer_troops = yes
 			}
 			every_state = {
+				limit = {
+					is_core_of = SAF
+				}
 				add_core_of = ENG
 			}
 				RAJ = {
 					every_unit_leader = {
 						set_nationality = ENG
 					}
+			}
+			every_state = {
+				limit = {
+					is_core_of = RAJ
 				}
+				add_core_of = ENG
+			}
 				annex_country = {
 				    target = RAJ
 				    transfer_troops = yes
@@ -4366,6 +4375,9 @@ focus_tree = {
 				}
 				add_core_of = ENG
 			}
+                        every_owned_state = {
+                        add_core_of = ENG
+                        }
 		}
 	}
 	###FED END
