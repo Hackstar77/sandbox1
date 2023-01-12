@@ -2894,7 +2894,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = GER_rhineland
-		cost = 10
+		cost = 15
 		
 		completion_reward = {
 			add_ideas = panzer_factories
@@ -2915,7 +2915,7 @@ focus_tree = {
 		x = -4
 		y = 2
 		relative_position_id = GER_rhineland
-		cost = 10
+		cost = 15
 		
 		completion_reward = {
 			add_ideas = fighter_factories
