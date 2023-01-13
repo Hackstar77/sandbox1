@@ -321,19 +321,19 @@ technologies = {
 		xp_unlock_cost = 100
 
 		motorized = {
-			max_organisation = 15
+			max_organisation = 10
 		}
 		mechanized = {
-			max_organisation = 15
+			max_organisation = 10
 		}
 		amphibious_mechanized = {
-			max_organisation = 15
+			max_organisation = 10
 		}
 		mech_shocktroop = {
-			max_organisation = 15
+			max_organisation = 10
 		}
 		mot_shocktroop = {
-			max_organisation = 15
+			max_organisation = 10
 		}
 		armored_car = {
 			max_organisation = 3
@@ -513,7 +513,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 1
+			max_organisation = 2
 		}
 
 		category_all_armor = {
@@ -656,7 +656,7 @@ technologies = {
 		}
 
 		category_all_infantry = {
-			max_organisation = 10
+			max_organisation = 8
 		}
 		category_tanks = {
 			max_organisation = 2
