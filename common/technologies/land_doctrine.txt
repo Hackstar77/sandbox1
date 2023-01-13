@@ -1107,7 +1107,7 @@ technologies = {
 
 
 		category_support_battalions = {
-			max_organisation = 10
+			max_organisation = 11.5
 			soft_attack = 0.25
 		}
 
@@ -1158,7 +1158,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_support_battalions = {
-			max_organisation = 10
+			max_organisation = 11.5
 			soft_attack = 0.25
 		}
 
@@ -1539,7 +1539,8 @@ technologies = {
 		}
 
 		#combat advantage when air superior
-		army_bonus_air_superiority_factor = 0.35
+		army_bonus_air_superiority_factor = 0.25
+		air_cas_present_factor = 0.15
 
 		doctrine = yes
 		research_cost = 4.5
