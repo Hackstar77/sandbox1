@@ -15,7 +15,7 @@ technologies = {
 		}
 
 		category_all_armor = {
-			breakthrough = 0.20
+			breakthrough = 0.1
 		}
 
 		planning_speed = 0.5
@@ -656,7 +656,7 @@ technologies = {
 		}
 
 		category_all_infantry = {
-			max_organisation = 8
+			max_organisation = 5
 		}
 		category_tanks = {
 			max_organisation = 2
