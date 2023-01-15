@@ -2969,6 +2969,7 @@ focus_tree = {
 				add_state_core = 4
 				add_state_core = 152
 				add_state_core = 153
+				add_state_core = 848
 				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 15161 }
 				add_equipment_to_stockpile = { type = support_equipment_1 amount = 549 }
 			}
