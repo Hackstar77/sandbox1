@@ -204,7 +204,7 @@ characters={
 				original_tag = ROM
 			}
 			traits = {
-				army_chief_defensive_2
+				army_chief_offensive_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -242,7 +242,7 @@ characters={
 				original_tag = ROM
 			}
 			traits = {
-				army_chief_offensive_2
+				army_chief_defensive_2
 			}
 			cost = 100
 			ai_will_do = {
