@@ -1179,7 +1179,7 @@ equipment_modules = {
 		allow_equipment_type = artillery
 
 		add_stats = {
-			soft_attack = 55
+			soft_attack = 85
 			hard_attack = 2
 			ap_attack = 60
 			build_cost_ic = 7
@@ -1208,9 +1208,9 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 35
-			hard_attack = 45
-			ap_attack = 225
+			soft_attack = 40
+			hard_attack = 50
+			ap_attack = 235
 			build_cost_ic = 12.5
 			maximum_speed = -0.6
 			reliability = -0.35

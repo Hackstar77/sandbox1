@@ -6105,6 +6105,7 @@ focus_tree = {
 		id = SOV_experts_in_camouflage
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = SOV_military_reorganization }
+		prerequisite = { focus = SOV_lessons_of_war }
 		x = -1
 		y = 1
 		relative_position_id = SOV_military_reorganization
