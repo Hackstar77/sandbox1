@@ -146,7 +146,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster }
+			traits={ panzer_leader trickster }
 			skill=4
 			attack_skill=3
 			defense_skill=4
@@ -203,9 +203,9 @@ characters={
 		}
 		field_marshal={
 			traits = {panzer_leader organizer}
-			skill=4
-			attack_skill=5
-			defense_skill=1
+			skill=5
+			attack_skill=6
+			defense_skill=2
 			planning_skill=5
 			logistics_skill=2
 			legacy_id=-1

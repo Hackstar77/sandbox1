@@ -1234,8 +1234,6 @@
 					}
 					promote_leader = yes
 				}
-				remove_advisor_role = { slot = army_chief }
-				remove_unit_leader_role = yes
 			}
 		
 			set_party_name = { 
