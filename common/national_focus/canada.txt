@@ -213,7 +213,7 @@
 		y = 2
 		relative_position_id = CAN_rowell_sirois_commission
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 75
@@ -499,8 +499,8 @@
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -753,7 +753,7 @@
 		y = 2
 		relative_position_id = CAN_defence_of_canada_regulations
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 75
@@ -1537,7 +1537,6 @@
 
 		available = {
 			num_of_factories > 50
-			is_subject = no
 		}
 		
 		bypass = {
@@ -2027,7 +2026,7 @@
 	focus = {
 		id = CAN_royal_regiment_of_canadian_artillery
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = CAN_canadian_infantry_corps }
+		prerequisite = { focus = CAN_canadian_infantry_corps focus = CAN_cmp_truck }
 		x = -1
 		y = 3
 		relative_position_id = CAN_army_modernization
@@ -2064,7 +2063,7 @@
 	focus = {
 		id = CAN_a_motorized_army
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = CAN_cmp_truck }
+		prerequisite = { focus = CAN_cmp_truck focus = CAN_canadian_infantry_corps }
 		x = 1
 		y = 3
 		relative_position_id = CAN_army_modernization 
@@ -2316,8 +2315,7 @@
 		x = 21
 		y = 0
 
-		cost = 10
-
+		cost = 5
 		ai_will_do = {
 			factor = 9
 			modifier = {
@@ -2607,8 +2605,9 @@
 	focus = {
 		id = CAN_supply_the_empire
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = CAN_the_plan}
-		prerequisite = { focus = CAN_camp_x }
+		prerequisite = { focus = CAN_the_plan  focus = CAN_camp_x }
+		prerequisite = { focus = CAN_shadow_factories }
+                prerequisite = { focus = CAN_montreal_laboratory_collaboration }
 		x = -1
 		y = 3
 		relative_position_id = CAN_strengthen_the_commonwealth_ties
@@ -3318,8 +3317,7 @@
 		y = 1
 		relative_position_id = CAN_halifax_shipyards
 
-		cost = 10
-
+		cost = 5
 		ai_will_do = {
 			factor = 25
 		}
@@ -3356,7 +3354,7 @@
 		y = 2
 		relative_position_id = CAN_halifax_shipyards
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -3433,7 +3431,7 @@
 		y = 3
 		relative_position_id = CAN_halifax_shipyards
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -3514,7 +3512,7 @@
 		y = 4
 		relative_position_id = CAN_halifax_shipyards
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
