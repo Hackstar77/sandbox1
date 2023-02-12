@@ -1,0 +1,221 @@
+## area priorities for FRANCE
+
+FRA_troops_free_france = {
+	enable = {
+		tag = FRA
+		OR = {
+			has_capitulated = yes
+			surrender_progress > 0.85	
+		}
+	}
+	abort = {
+		NOT = { has_capitulated = yes }
+	}
+
+	ai_strategy = { 
+		type = area_priority        
+		id = north_africa 			      
+		value = 200 
+	} 
+}
+
+FRA_unit_production = {
+	allowed = { original_tag = FRA }
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80
+	}
+
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = -1000 #someone else will do it
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = tactical_bomber
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = -1000
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = -1000
+	}
+
+
+	# Naval unit factors (irrelevant)
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 20 # from 15 to 25
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 40 #from 50 to 40
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 25
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 0
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 40
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 10
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 80
+	}
+}
+
+FRA_armored_production = {
+	allowed = { original_tag = FRA }
+	enable = {
+		ai_wants_divisions > 12 #Decreasing the amount of tanks the AI wants
+	}
+	abort = {
+		ai_wants_divisions < 13 #Decreasing the amount of tanks the AI wants
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 50
+	}
+}
+
+FRA_area_priority = {
+	allowed = { original_tag = FRA }
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = france
+		value = 9999 #more focus here
+	}
+}
+
+FRA_agency = {
+	enable = {
+		original_tag = FRA
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_defense
+		value = 200 #spec into passive defense
+	}
+
+	ai_strategy = {
+		type = operative_mission
+		mission = build_intel_network
+		value = 999 #spy on GER
+		mission_target = GER
+		state = 55
+		priority = 100
+	}
+}
+
+FRA_teammates = {
+	enable = {
+		original_tag = FRA
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = ENG
+		value = 999
+	}
+	ai_strategy = {
+		type = befriend
+		id = ENG
+		value = 999
+	}
+}
