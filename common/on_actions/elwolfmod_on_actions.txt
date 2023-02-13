@@ -24,16 +24,6 @@ on_actions = {
 			if = {
 				limit = {
 					FROM = {
-						tag = FRA
-					}
-				}
-				FRA = {
-					load_oob = "FRA_SPAWN"
-				}
-			}
-			if = {
-				limit = {
-					FROM = {
 						tag = CHI
 					}
 				}
@@ -1497,12 +1487,6 @@ on_actions = {
 					amount = 480
 					producer = FRA
 					variant_name = "H-35"
-				}
-				add_equipment_to_stockpile = {
-					type = heavy_tank_chassis_1
-					amount = 1500
-					producer = FRA
-					variant_name = "Spawn"
 				}
 				add_equipment_to_stockpile = {
 					type = train_equipment
